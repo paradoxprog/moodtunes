@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tunes Pricing</title>
+    <style>
+        body {
+	    
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+	    font-family: Arial, Helvetica, sans-serif;
+            font-size: 26px;
+            background-image: url('website back 3.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .pricing-container {
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .price {
+            font-size: 2em;
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+
+        .pay-button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .pay-button:hover {
+            background-color: #218838;
+        }
+
+        .main-page-link {
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pricing-container">
+        <h2>Get full access to all features for only ₹500!</h2>
+        <div class="price">₹500</div>
+        <button class="pay-button" onclick="makePayment()">Pay Now</button>
+        <a href="options1.html" class="main-page-link" id="mainPageLink">Go to Main Page</a>
+    </div>
+
+    <script>
+        function makePayment() {
+            // Simulate a payment process
+            alert('Payment successful!');
+
+            // Hide the payment button after successful payment
+            document.querySelector('.pay-button').style.display = 'none';
+
+            // Show the link to go to the main page
+            document.getElementById('mainPageLink').style.display = 'inline';
+        }
+    </script>
+
+</body>
+</html>

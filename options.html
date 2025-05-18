@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tunes</title>
+    <style>
+        body { 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 29px;
+            background-image: url('website back 3.jpg');
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            color: white; /* Adjust text color for better contrast */
+	    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+        }
+        h2 { margin-top: 50px; }
+        button {
+            background-color: #04AA6D;
+            font-size: 19px;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+            margin: 20px;
+            display: inline-block;
+	    text-align: center;
+        }
+        button:hover { opacity: 0.8; }
+    </style>
+</head>
+<body>
+    <img src="logo 1.jpg" alt="Mood Tunes Logo" style="display: block; margin: 50px auto; width: 200px;height: 200px;border : 2px solid #111211;
+	border-radius: 30px;">
+    <h2>Select an Option</h2>
+    <button onclick="window.location.href='http://127.0.0.1:8000'">Emotion Detection</button>
+    <button onclick="window.location.href='chatbot.html'">Chatbot</button>
+</body>
+</html>
