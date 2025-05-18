@@ -1,0 +1,57 @@
+body{
+	text-align: center;
+}
+
+
+h1{
+	font-family:  fantasy;
+	color: white;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+.title{
+	margin-top: 20px;
+}
+input[type="radio"]{
+	display: none;
+}
+.box{
+	background-color: white;
+
+	height: 170px;
+	width: 300px;
+	padding: 30px;
+	text-align:match-parent;
+	font-size: 25px;
+	font-family: fantasy;
+	line-height: 50px;
+	margin: 10px 10px;
+	border: 2px solid #070707;
+	border-radius: 10%;
+
+}
+.box:hover{
+	background-color: #b899b9;
+	transition-duration: 1s;
+}
+
+input[type=radio]:checked + .box{
+	background-color: #ffbceb;
+	color: rgb(10, 9, 9);
+	transition-duration: 0s;
+}
+.btn{
+	width: 300px;
+	height: 50px;
+	}
+
+
+
+
+
+img{
+	margin-top: 50px;
+	width: 200px;
+	height: 200px;
+	border : 2px solid #111211;
+	border-radius: 30px;
+}
